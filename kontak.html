@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Website personal tentang hobi dan kegiatan sehari-hari."
+    >
+    <title>Kontak | Catatan Personal</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html">
+                Daily<span>Notes</span>
+            </a>
+
+            <nav aria-label="Navigasi utama">
+                <a href="index.html">Home</a>
+                <a href="hobi.html">Hobi</a>
+                <a href="rutinitas.html">Rutinitas</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="kontak.html" class="active">Kontak</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section class="page-intro">
+            <span class="eyebrow">Mari terhubung dengan saya hehe</span>
+
+            <h1>Hubungi saya</h1>
+
+            <p>
+               kamu bisa mengirimkan topik kepada saya melalui halaman kontak ini
+            </p>
+        </section>
+
+        <section class="section two-col">
+
+            <div class="panel">
+                <h2>Kirim pesan</h2>
+
+                <form action="#" method="get">
+
+                    <div>
+                        <label for="nama">Nama</label>
+                        <input
+                            id="nama"
+                            name="nama"
+                            type="text"
+                            placeholder="Nama kamu"
+                            required
+                        >
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="nama@email.com"
+                            required
+                        >
+                    </div>
+
+                    <div>
+                        <label for="topik">Topik</label>
+
+                        <select id="topik" name="topik">
+                            <option value="saran">Saran</option>
+                            <option value="pertanyaan">Pertanyaan</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="pesan">Pesan</label>
+
+                        <textarea
+                            id="pesan"
+                            name="pesan"
+                            placeholder="Tulis pesan kamu..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button class="button" type="submit">
+                        Kirim (contoh)
+                    </button>
+
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-wrap">
+
+        </div>
+    </footer>
+
+</body>
+</html>
